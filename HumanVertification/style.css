@@ -1,0 +1,40 @@
+.container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container form .checkbox {
+  margin: 2% 0 2% 0;
+}
+.Select {
+  width: 420px;
+  height: 420px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 5px 5px 12px #979797, -5px -5px 12px #ffffff;
+}
+.element {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 8px 5px #e7e7e7;
+  color: #ffffff;
+  text-shadow: 1px 5px 7px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.element:hover {
+  box-shadow: 0px 0px 8px 5px #f1f0f0;
+}
+#colorSelected {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}

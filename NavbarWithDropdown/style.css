@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+}
