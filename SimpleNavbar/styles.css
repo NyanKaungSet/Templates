@@ -8,6 +8,7 @@ body{margin:0;padding:0;box-sizing: border-box;}
     position: sticky;
     top: 0;
     z-index: 9;
+    margin-bottom: 2000px;
 }
 .topnav a {
     float: left;
