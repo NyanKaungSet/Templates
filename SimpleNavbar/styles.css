@@ -8,7 +8,6 @@ body{margin:0;padding:0;box-sizing: border-box;}
     position: sticky;
     top: 0;
     z-index: 9;
-    margin-bottom: 2000px;
 }
 .topnav a {
     float: left;
@@ -40,7 +39,7 @@ body{margin:0;padding:0;box-sizing: border-box;}
     }
 }
 @media screen and (max-width: 700px) {
-    .topnav.responsive {position: relative;justify-content: space-between;}
+    .topnav.responsive {justify-content: space-between;}
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
