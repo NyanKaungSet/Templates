@@ -1,6 +1,6 @@
 # Templates
 
-Tons of Prebuilt Projects to use in your projects.
+Tons of Prebuilt Projects for your website.
 If you like it, share with your friends!
 
 # licence 
