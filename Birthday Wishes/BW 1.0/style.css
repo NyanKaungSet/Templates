@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    background-color: #333;
+}
+.main_div{
+    padding: 2px;
+    max-width: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:7px 7px 14px 6px #000;
+}
+.loader{
+    border: 1px solid #fff;
+}
+.loader span{
+    font-size: 2em;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: animate 5s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    padding-right: 3px;
+}
+@keyframes animate{
+    0%,
+    40%,
+    100% {
+        transform: rotate(0);
+    }
+    20% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader header{
+    overflow: hidden;
+    background-image:linear-gradient(to left,#2ecc71,#3498db,#9b59bc,#f39c12);
+}
+.loader h1{
+    text-align: center;
+    font-family: monospace,serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    transform:translateX(-300px);
+    animation:text 30s linear infinite;
+}
+@keyframes text{
+    0%{transform: translateX(-300px);}
+    25%{transform: translateX(300px);}
+    50%{transform: translateX(-300px);}
+    75%{transform: translateX(300px);}
+    100%{transform: translateX(-300px);}
+}
+
+.wish{
+    background-color: #daa520;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+}
+img{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
