@@ -1,5 +1,6 @@
 # Under Maintaining
 
-<!--# Templates
+:warning: Disclaimer: Most of the projects are not made by me. All rights belong to their respective owners!
 
-:warning: Disclaimer: Most of the projects are not made by me. All rights belong to their respective owners! Ask for their permissions if you want to use them.-->
+# Sources
+1. [Working Contact Form](https://youtu.be/Yg6POD0M30w)
