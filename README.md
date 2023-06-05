@@ -4,3 +4,4 @@
 
 # Sources
 1. [Working Contact Form](https://youtu.be/Yg6POD0M30w)
+2. [Reveal Text](https://github.com/scroll-out/scroll-out)
