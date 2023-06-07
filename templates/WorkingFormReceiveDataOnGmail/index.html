@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Working Form | Receive Data On Gmail</title>
+</head>
+<body>
+    <section class="container">
+        <div>
+            <form action="https://formsubmit.co/{Your-Gmail-Address}" method="POST">
+                <h1 style="padding-top: 20px;">Working Form</h1>
+                <input type="text" name="_honey" style="display:none;"><!--Add Honeypot-->
+                <input type="hidden" name="_subject" value="Message from My Portfolio"><!--The heading that will display on the email-->
+                <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                <input type="email" id="email" name="Email" placeholder="Email Address" required>
+                <input type="text" id="phone" name="Phone&nbsp;no" placeholder="Phone no." required>
+                <textarea id="message" rows="4" name="Message" placeholder="How can I help you?"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
